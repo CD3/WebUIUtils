@@ -1,0 +1,21 @@
+inputs:
+  - elem_type: input
+    label: Beam Diameter
+    default: 1 cm
+    id-prefix: beam-diam
+    metadata:
+      elem_type: select
+      options:
+        - 1/e
+        - 1/e Squared
+        - FWHM
+  - elem_type: select
+    label: Profile Type
+    default: 1 cm
+    options:
+      - Circular Gaussian
+      - Circular Flat Top
+      - Elliptical Gaussian
+      - Elliptical Flat Top
+
+
